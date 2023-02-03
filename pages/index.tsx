@@ -20,7 +20,7 @@ export default function Home({ posts }: Props) {
       <div className="relative">
         <img
           className="md:h-[600px] w-full object-cover "
-          src="/pexels-helena-lopes-711009-min.jpg"
+          src="/image.webp"
           alt=""
         />
         <div className="absolute inset-0 bg-gray-900 bg-opacity-50"></div>
