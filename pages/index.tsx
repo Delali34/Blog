@@ -18,7 +18,9 @@ export default function Home({ posts }: Props) {
       </Head>
       <Header />
       <div className="relative">
-        <img
+        <Image
+          width={500}
+          height={600}
           className="md:h-[600px] w-full object-cover blur-on-load"
           src="/image.webp"
           alt=""
