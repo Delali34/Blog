@@ -20,7 +20,7 @@ interface Props {
 
 function Post({ post }: Props) {
   const [submitted, setSubmitted] = useState(false);
-  console.log(post);
+
   const {
     register,
     handleSubmit,
@@ -33,7 +33,6 @@ function Post({ post }: Props) {
       body: JSON.stringify(data),
     })
       .then(() => {
-        console.log(data);
         setSubmitted(true);
       })
       .catch((err) => {
