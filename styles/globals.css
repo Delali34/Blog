@@ -7,3 +7,20 @@
 .imageSize {
   height: 600px;
 }
+.blur-on-load {
+  position: relative;
+}
+.blur-on-load::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(/image.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(20px);
+  z-index: -1;
+}
