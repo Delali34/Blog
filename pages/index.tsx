@@ -11,18 +11,18 @@ interface Props {
 }
 export default function Home({ posts }: Props) {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto ">
       <Head>
         <title>LeadAfrique Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
       <div className="flex justify-between items-center bg-purple-400 border-y border-black py-10 lg:py-0">
-        <div className="px-10 space-y-5">
-          <h1 className="text-7xl font-serif">
+        <div className="">
+          <h1 className="text-7xl font-serif p-10">
             <span className="underline">Inspiring</span> you to Greatness
           </h1>
-          <h2 className="text-2xl">
+          <h2 className="text-2xl p-10">
             Transformed Africa through creative and responsive leaders.
           </h2>
         </div>
