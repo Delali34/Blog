@@ -17,20 +17,20 @@ export default function Home({ posts }: Props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="flex justify-between items-center bg-purple-400 border-y border-black py-10 lg:py-0">
-        <div className="">
-          <h1 className="text-7xl font-serif p-5 sm:p-10">
-            <span className="underline">Inspiring</span> you to Greatness
-          </h1>
-          <h2 className="text-2xl p-5 sm:p-10">
-            Transformed Africa through creative and responsive leaders.
-          </h2>
-        </div>
+      <div className="relative">
         <img
-          className="hidden md:inline-flex h-full"
-          src="/pexels-tima-miroshnichenko-6549853-removebg-preview.png"
+          className="md:h-[600px] w-full object-cover "
+          src="/pexels-helena-lopes-711009-min.jpg"
           alt=""
         />
+        <div className="absolute inset-0 bg-gray-900 bg-opacity-50"></div>
+        <h1 className="absolute top-[40%] left-[5%] text-white font-font md:text-7xl font-bold text-4xl">
+          Inspiring you to <br />{" "}
+          <span className="text-purple-500">Greatness</span>
+        </h1>
+        <h3 className="absolute top-[75%] left-[5%] text-white font-font md:text-2xl text-sm">
+          Transformed Africa through creative and responsive leaders.
+        </h3>
       </div>
       {/* posts */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 p-2 md:p-6">
