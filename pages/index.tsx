@@ -19,9 +19,12 @@ export default function Home({ posts }: Props) {
       <Header />
       <div className="relative">
         <img
-          className="md:h-[600px] w-full object-cover "
+          className="md:h-[600px] w-full object-cover blur-on-load"
           src="/image.webp"
           alt=""
+          onLoad={(event) =>
+            event.currentTarget.classList.remove("blur-on-load")
+          }
         />
         <div className="absolute inset-0 bg-gray-900 bg-opacity-50"></div>
         <h1 className="absolute top-[40%] left-[5%] text-white font-font md:text-7xl font-bold text-4xl">
