@@ -89,6 +89,7 @@ export const getServerSideProps = async () => {
   return {
     props: {
       posts,
+      revalidate: 60,
     },
   };
 };
