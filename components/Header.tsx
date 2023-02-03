@@ -22,12 +22,12 @@ function Header() {
       </div>
       <div className="flex items-center space-x-5 ">
         <Link href="https://www.youtube.com/@leadafriquetv7715" target="_blank">
-          <h3 className="border px-4 py-1 rounded-full border-red-600 text-red-600 font-font hover:bg-red-500 hover:text-black">
+          <h3 className="border px-4 py-1 rounded-full border-red-600 text-red-600 font-font hover:bg-red-500 hover:text-black transition duration-200 ease-in">
             YouTube
           </h3>
         </Link>
         <Link href="https://twitter.com/LeadAfrique" target="_blank">
-          <h3 className="border px-4 py-1 rounded-full border-blue-500 text-blue-500 font-font hover:bg-blue-500 hover:text-black">
+          <h3 className="border px-4 py-1 rounded-full border-blue-500 text-blue-500 font-font hover:bg-blue-500 hover:text-black transition duration-200 ease-in">
             Twitter
           </h3>
         </Link>
