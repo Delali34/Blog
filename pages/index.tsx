@@ -19,10 +19,10 @@ export default function Home({ posts }: Props) {
       <Header />
       <div className="flex justify-between items-center bg-purple-400 border-y border-black py-10 lg:py-0">
         <div className="">
-          <h1 className="text-7xl font-serif p-10">
+          <h1 className="text-7xl font-serif p-5 sm:p-10">
             <span className="underline">Inspiring</span> you to Greatness
           </h1>
-          <h2 className="text-2xl p-10">
+          <h2 className="text-2xl p-5 sm:p-10">
             Transformed Africa through creative and responsive leaders.
           </h2>
         </div>
