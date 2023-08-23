@@ -148,7 +148,7 @@ function Post({ post }: Props) {
             {errors.name && (
               <span className="text-red-500">
                 {" "}
-                - The name field is required
+                - The name field is required..
               </span>
             )}
             {errors.comment && (
